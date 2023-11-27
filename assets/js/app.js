@@ -19,7 +19,6 @@ function countFreezes(temperatures) {
         }
     }
 
-    // Дополнительная проверка для последнего дня
     if (temperatures[temperatures.length - 1] < 0 && currentFreeze > longestFreeze) {
         longestFreeze = currentFreeze;
     }
